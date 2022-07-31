@@ -1,0 +1,147 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    margin: 0;
+    align-items: center;
+}
+
+header,
+.awesome,
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h2 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+header a,
+.awesome p {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.awesome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+}
+
+.placeholder {
+    height: 300px;
+    width: 600px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.awesome h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: none;
+    padding: 5px;
+    width: 80px;
+    height: 30px;
+}
+
+.action {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 80px;
+    border-radius: 5px;
+    width: 800px;
+}
+
+.action button {
+    border: 3px solid white 
+}
+
+.random h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.random {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.descrip {
+    width: 400px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 5px;;
+}
+
+.boxcontainer p {
+    width: 180px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 50px;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+}
+
+#attribution {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
+}
+
+footer{
+    text-align: center;
+}
