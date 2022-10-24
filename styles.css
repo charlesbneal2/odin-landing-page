@@ -11,13 +11,16 @@ header,
 footer {
     background-color: #1F2937;
     color: #F9FAF8;
+    display: flex;
+    justify-content: center;
     width: 100%;
 }
 
-header {
+.header-text {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 80%
 }
 
 header h2 {
@@ -80,6 +83,7 @@ button {
     justify-content: space-around;
     align-items: center;
     margin: 40px 80px;
+    padding: 20px 40px;
     border-radius: 5px;
     width: 800px;
 }
@@ -126,8 +130,14 @@ button {
 
 .quote {
     background-color: #E5E7EB;
-    color: #1F2937;
     padding: 50px;
+}
+
+.quote-text {
+    color: #1F2937;
+    margin-right: 600px;
+    margin-left: 600px;
+
 }
 
 .quote p {
